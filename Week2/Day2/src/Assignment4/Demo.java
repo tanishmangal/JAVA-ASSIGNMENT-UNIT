@@ -1,11 +1,9 @@
 package Assignment4;
-
 import java.util.Scanner;
 
 class Bank {
 	String branchName;
 	String ifscCode;
-
 	void displayDetails() {
 		System.out.println("Bank Name:=" + this.branchName);
 		System.out.println("IfSC Code:=" + this.ifscCode);
@@ -14,14 +12,12 @@ class Bank {
 
 class AxixBank extends Bank {
 	double rateOfIntrest;
-
 	@Override
 	void displayDetails() {
 		System.out.println("Bank Name:=" + this.branchName);
 		System.out.println("IfSC Code:=" + this.ifscCode);
 		System.out.println("Rate of Intrest:=" + this.rateOfIntrest);
 	}
-
 	void getCreditCard() {
 		System.out.println("Get the Credit Card from the Axis bank");
 	}
