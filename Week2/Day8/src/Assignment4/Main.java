@@ -1,7 +1,5 @@
 package Assignment4;
 
-import java.lang.invoke.StringConcatFactory;
-
 class Animal {
 	public void makeNoise() {
 		System.out.println("Animal Making Noise");
