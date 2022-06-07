@@ -1,0 +1,31 @@
+Final KeyWord ==FInal Keyword Used Different Type
+1) Final Variable==  When We Declare Any Variable in java With Keyword Final then We cant Modify value of that variable in further Coding .Then that value in the variable  Called As Constant variable,
+
+2)Final Method==  When WE Make Any Method Final Then We Cant Override it.If we want that no one can override our method then we can make it Final..
+
+3)Final Class== When We Dont want to allow our class to inherited then we can make class Final..
+
+
+
+
+
+Finally===Finally is a block which is Followed by the try and catch block .This Block always get executed whether any exception occur or not ..
+Example
+     class Check{
+      public static void main(String [] args){
+        try{
+           int a=25;
+           int b=0;
+           int c=a/b;
+           System.out.println(c);
+       }
+       catch(ArithmaticException e){
+        System.out.println("Enter Valid Number");
+       } 
+       finally{
+        System.out.println("Close Any Method");
+       } 
+
+     }
+
+   }
